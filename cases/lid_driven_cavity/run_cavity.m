@@ -489,7 +489,7 @@ end
 
 % TDMA j
 function u = tridag_j(d, a, b, c, e, r, u, n, l)
-    % TRIDAG_J Tri-diagonal matrix solver (derived from Numerical Recipes)
+    % tridag_j Tri-diagonal matrix solver (derived from Numerical Recipes)
     % Solves the system along j-lines by iterating across the domain in the i-direction.
 
     % Preallocate the gam vector to optimise computational performance
